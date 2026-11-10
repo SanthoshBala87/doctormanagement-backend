@@ -1,7 +1,4 @@
-FROM ubuntu:latest
-LABEL authors="santh"
 
-ENTRYPOINT ["top", "-b"]
 
 FROM maven:3.9-eclipse-temurin-25 AS build
 
